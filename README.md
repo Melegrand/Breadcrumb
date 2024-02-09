@@ -10,7 +10,7 @@ This package was created with the purpose of simplifying the implementation of a
 Install this package:
 
 ```shell
-npm add breadcrumb-fil-dariane@1.1.1
+npm add breadcrumb-fil-dariane@1.1.2
 ```
 
 Import the Counter component:
@@ -25,7 +25,7 @@ You can integrate this component as a simple React component.
 
 ```js
     return (
-        <Breadcrumb pathArray={routes}/>
+        <Breadcrumb pathArray={myPathArray}/>
     );
 ```
 
@@ -35,7 +35,7 @@ An array of objects containing 'path', which represents the route, and 'breadcru
 It should be implemented for all the website's routes and set to "null" if you don't want a breadcrumb to be displayed for that route.  
 
 ```js
-    const pathArray = [
+    const myPathArray = [
         { path: '/', breadcrumb: 'Home' },
         { path: '/about', breadcrumb: 'About' },
         { path: '/login', breadcrumb: 'Login' },
@@ -48,7 +48,7 @@ It should be implemented for all the website's routes and set to "null" if you d
 
 ```js
 const Component = () => {
-    const pathArray = [
+    const myPathArray = [
         { path: '/', breadcrumb: 'Home' },
         { path: '/about', breadcrumb: 'About' },
         { path: '/login', breadcrumb: 'Login' },
@@ -57,7 +57,7 @@ const Component = () => {
     ]
 
     return (
-        <Breadcrumb pathArray={routes}/>
+        <Breadcrumb pathArray={myPathArray}/>
         // rest of your component
     );
 }
