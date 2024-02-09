@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Link, useLocation } from "react-router-dom";
 import useBreadcrumbs from 'use-react-router-breadcrumbs';
-import './breadcrumb.css';
 interface IPathObject {
   path: string;
   breadcrumb: string;
@@ -10,7 +9,7 @@ interface IProps {
     pathArray: IPathObject[];
 }
 
-export function Breadcrumb({pathArray} : IProps) {
+export default function Breadcrumb({pathArray} : IProps) {
   const location = useLocation();
   const breadcrumbs = useBreadcrumbs(pathArray);
 
