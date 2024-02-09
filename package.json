@@ -1,6 +1,6 @@
 {
   "name": "breadcrumb-fil-dariane",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A simple component to add an accessible Breadcrumb in your react application",
   "main": "index.js",
   "scripts": {
