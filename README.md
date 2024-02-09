@@ -2,7 +2,7 @@
 
 This package was created with the purpose of simplifying the implementation of an accessible and customizable breadcrumb/ariane thread  
 
-![breadcrumb](./breadcrump.png)
+![breadcrumb](./breadcrumb.png)
 
 
 ## Getting Started
@@ -10,7 +10,7 @@ This package was created with the purpose of simplifying the implementation of a
 Install this package:
 
 ```shell
-npm add breadcrumb-fil-dariane@1.0.7
+npm add breadcrumb-fil-dariane@1.1.1
 ```
 
 Import the Counter component:
