@@ -10,13 +10,13 @@ This package was created with the purpose of simplifying the implementation of a
 Install this package:
 
 ```shell
-npm add breadcrumb-fil-dariane@1.1.3
+npm add breadcrumb-fil-dariane@1.1.4
 ```
 
 Import the Counter component:
 
 ```js
-import { Breadcrumb } from "breadcrumb-fil-dariane";
+import Breadcrumb from "breadcrumb-fil-dariane";
 ```
 
 You can integrate this component as a simple React component.
