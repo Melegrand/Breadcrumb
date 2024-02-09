@@ -10,7 +10,7 @@ This package was created with the purpose of simplifying the implementation of a
 Install this package:
 
 ```shell
-npm add breadcrumb-fil-dariane@1.1.2
+npm add breadcrumb-fil-dariane@1.1.3
 ```
 
 Import the Counter component:
