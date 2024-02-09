@@ -2,7 +2,15 @@ import * as React from "react";
 import { Link, useLocation } from "react-router-dom";
 import useBreadcrumbs from 'use-react-router-breadcrumbs';
 import './breadcrumb.css';
-export function Breadcrumb({pathArray}) {
+interface IPathObject {
+  path: string;
+  breadcrumb: string;
+}
+interface IProps {
+    pathArray: IPathObject[];
+}
+
+export function Breadcrumb({pathArray} : IProps) {
   const location = useLocation();
   const breadcrumbs = useBreadcrumbs(pathArray);
 
@@ -18,16 +26,12 @@ export function Breadcrumb({pathArray}) {
                                 {breadcrumb && (
                                     <Link
                                     to={match.pathname}
-
-                                    
                                     className={
                                         location.pathname === match.pathname
                                         ? 'breadcrumb-active'
                                         : 'breadcrumb-not-active'
                                     }
-
-
-                                    aria-current={location.pathname === match.pathname ? "page" : null}
+                                    aria-current={location.pathname === match.pathname ? "page" : false}
                                     >
                                     {breadcrumb}
                                     </Link>
