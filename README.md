@@ -13,7 +13,7 @@ Install this package:
 npm add breadcrumb-fil-dariane@1.1.4
 ```
 
-Import the Counter component:
+Import the Breadcrumb component:
 
 ```js
 import Breadcrumb from "breadcrumb-fil-dariane";
